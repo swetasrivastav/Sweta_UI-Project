@@ -7,6 +7,7 @@ import customericon from "../assets/customericon.png"
 import income from "../assets/income.png"
 import promote from "../assets/promote.png"
 import rightarrow from "../assets/rightarrow.svg"
+import help from "../assets/help.png"
 
 const MobileNavbar = () => {
   const nav = [
@@ -37,7 +38,7 @@ const MobileNavbar = () => {
     },
     {
       name: "Help",
-      img: promote,
+      img: help,
        },
   ];
   const [open, setOpen] = useState(false);
@@ -45,9 +46,8 @@ const MobileNavbar = () => {
   return (
 
     <>
-    <div className="mt-4 mr-8">
-  
-          <Bars3Icon
+    <div className="mt-4 mr-8 bg-slate-200">
+  <Bars3Icon
           className="w-8 cursor-pointer"
           onClick={() => setOpen(true)}
         />

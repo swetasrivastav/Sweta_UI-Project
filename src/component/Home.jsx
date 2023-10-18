@@ -13,7 +13,7 @@ import ProductSell from './ProductSell'
 const Home = () => {
   return (
     <>
-    <div className=' flex lg:justify-between lg:mx-10 lg:mt-0 mt-16 ml-10 '>
+    <div className=' flex justify-between lg:mx-10 lg:mt-0 mt-16 ml-10 '>
      <h1 className='text-xl font-medium text-gray-900 my-6'>Hello Sweta 👋</h1>
      
      <div class=" relative  mt-6 text-gray-600 ">
