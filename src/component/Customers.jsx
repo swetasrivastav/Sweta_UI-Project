@@ -21,7 +21,10 @@ const Customers = () => {
 <option >Yearly</option>
 </select>
 </div>
-<img src={chart} alt='' className='lg:w-[700px] lg:h-60 lg:ml-6 lg:p-1 p-3 lg:mt-4'/>
+<div>
+
+<img src={chart} alt='' className='lg:w-[700px] lg:h-60 lg:ml-6 p-1 w-[280px] ml-4  lg:mt-4'/>
+</div>
   </div>
 
     {/* customer card */}
