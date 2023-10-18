@@ -10,7 +10,7 @@ const Customers = () => {
     <div className='flex lg:flex-row flex-col mx-10 lg:gap-1 gap-6'>
 
    {/* customers chart */}
-    <div className='lg:w-[750px] bg-white lg:h-[320px] w-72  shadow-lg rounded-xl'>
+    <div className='lg:w-[750px] bg-white lg:h-[320px]  shadow-lg rounded-xl'>
     <div className='pt-3 px-6 flex justify-between '>
       <div>
 <h1 className='text-base font-semibold text-gray-900 '>Customers</h1>
