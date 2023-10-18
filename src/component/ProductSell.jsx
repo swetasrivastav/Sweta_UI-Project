@@ -68,7 +68,7 @@ const ProductSell = () => {
              <p className='text-xs '>{value.description}</p>
              </div>
              </div>
-             <div className='flex lg:gap-12 lg:mr-16 gap-6 mr-2 items-center'>
+             <div className='flex lg:gap-12 lg:mr-16 gap-8 mr-2 items-center'>
                  <p className='text-xs font-semibold '>{value.stock}</p>
                  <p className='text-xs font-extrabold'>{value.price}</p>
                 <p className='font-semibold text-xs'>{value.totalsales}</p>

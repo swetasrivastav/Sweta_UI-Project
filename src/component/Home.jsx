@@ -80,7 +80,7 @@ const Home = () => {
             <div className='mt-6'>
               <Customers/>
           </div>
-        <div className='lg:mx-10 mt-6 mb-4 '> 
+        <div className='lg:mx-10 mt-6 mb-4 ml-4'> 
           <ProductSell/>
           </div> 
     </>

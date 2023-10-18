@@ -46,12 +46,12 @@ const MobileNavbar = () => {
   return (
 
     <>
-    <div className="mt-4 mr-8 bg-slate-200">
+    <div className="mr-1 mt-2 ">
   <Bars3Icon
           className="w-8 cursor-pointer"
           onClick={() => setOpen(true)}
         />
-      </div>
+      </div> 
        <div
        className={`fixed flex flex-col  top-0 right-0 bg-[#030333] h-screen transition-all duration-200 ease-out ${
          open ? "w-60" : "w-0"
